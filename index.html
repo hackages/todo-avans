@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <style>
+        input {
+            width: 300px;
+        }
+    </style>
+    <title>Todo App</title>
+</head>
+<body>
+    <h1>Todo App</h1>
+    <input placeholder="What do you do today?" value="" type="text" id="todoInput">
+    <button id="addBtn">Add Todo</button>
+    <h2>List of Todos</h2>
+    <ul id="todos">
+        <li>
+            Learn how to build a todo App
+            <button id="doneBtn">Done</button>
+            <button id="deleteBtn">Delete</button>
+        </li>
+    </ul>
+
+
+    <h2>Done Todos</h2>
+    <ul id="doneTodos">
+        
+    </ul>
+    <script src="addTodo.js"></script>
+    <script src="displayTodo.js"></script>
+    <script src="doneTodo.js"></script>
+    <script src="deleteTodo.js"></script>
+    <script src="createButton.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
